@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Numbers</title>
+    </head>
+    <body>
+        <script>
+            var x=10      //integer
+            var y=10.5    //floating-point
+            var z="40"
+            var p="hello"
+            var q=NaN     //Not a Number
+
+            document.write(x+"<br>")
+            document.write(y+"<br>")
+            document.write(x+y)    //20.5
+            document.write("<br>")
+            document.write(x+z)   //1040
+            document.write("<br>")
+            document.write(z+z)   //4040
+            document.write("<br>")
+            document.write(x+y+z)   //20.540
+            document.write("<br>")
+            document.write(x*z)   //400
+            document.write("<br>")
+            document.write(z-x)   //30
+            document.write("<br>")
+            document.write(z/x) //4
+
+            document.write("<br>")
+            document.write(p-x) //NaN
+            document.write("<br>")
+            document.write(p*x) //NaN
+            document.write("<br>")
+            document.write(p+q)   //helloNaN
+            document.write("<br>")
+
+            var x1=0.1
+            var y1=0.2
+            var result=(x1*10 + y1*10)/10;
+            document.write(x1+y1)   //
+            document.write("<br>")
+            document.write(result)
+            document.write("<br>")
+
+            var x2=9999999999999999;
+            document.write(x2)
+            document.write("<br>")
+
+            var x3="3.14"   //floating-point
+            document.write(parseInt(x3))  //converted string value to integer
+            document.write("<br>")
+            document.write(parseFloat(x3))
+            document.write("<br>")
+
+            var x4=25
+            var y4=x4.toString()  //toString method used for converting numbers to string
+            document.write(y4)
+
+
+        </script>
+    </body>
+</html>
